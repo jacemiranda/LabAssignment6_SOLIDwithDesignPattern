@@ -19,7 +19,7 @@ The initial **NEU Library** system featured a `Student` object that directly dep
 
 ## 🛠️ Proposed Solution
 
-To resolve these issues, the **Dependency Inversion Principle (DIP)** was applied[cite: 318, 319]. We introduced a `LibraryResource` interface that serves as an abstraction for all borrowable items.
+To resolve these issues, the **Dependency Inversion Principle (DIP)** was applied. We introduced a `LibraryResource` interface that serves as an abstraction for all borrowable items.
 
 ### Key Refactoring Steps:
 1. **Abstraction:** Created a `LibraryResource` interface to define common behavior (`getTitle`, `borrow`).
